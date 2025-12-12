@@ -1,79 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaquinha Solidária - Ajude com Amor | Doação PIX</title>
-    <meta name="description"
-        content="Participe desta campanha solidária e ajude a custear gastos médicos. Doe via PIX de forma rápida e segura. Sua contribuição faz a diferença!">
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Vaquinha Solidária - Ajude com Amor">
-    <meta property="og:description"
-        content="Participe desta campanha solidária e ajude a custear gastos médicos. Doe via PIX de forma rápida e segura.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://vaquinha-solidaria2.vercel.app/assets/img/banner.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://vaquinha-solidaria2.vercel.app/" />
-    <meta property="og:site_name" content="Vaquinha Solidária" />
-    <meta property="og:locale" content="pt_BR" />
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
-</head>
-
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                    </svg>
-                    Vaquinha Solidária
-                </div> <a href="#pix" class="btn btn-primary" aria-label="Ir para seção de doação">Doar Agora</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vaquinha Solidária - Ajude com Amor | Doação PIX</title>
+        <meta name="description" content="Participe desta campanha solidária e ajude a custear gastos médicos. Doe via PIX de forma rápida e segura. Sua contribuição faz a diferença!">
+        <!-- Open Graph Tags -->
+        <meta property="og:title" content="Vaquinha Solidária - Ajude com Amor">
+        <meta property="og:description" content="Participe desta campanha solidária e ajude a custear gastos médicos. Doe via PIX de forma rápida e segura.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://vaquinha-solidaria2.vercel.app/assets/img/banner.jpg"/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/>
+        <meta property="og:url" content="https://vaquinha-solidaria2.vercel.app/"/>
+        <meta property="og:site_name" content="Vaquinha Solidária"/>
+        <meta property="og:locale" content="pt_BR"/>
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                        Vaquinha Solidária
+                    </div>                     <a href="#pix" class="btn btn-primary" aria-label="Ir para seção de doação">Doar Agora</a>
+                </div>
             </div>
-        </div>
-    </header>
-    <!-- Hero Section -->
-    <section class="hero" id="inicio">
-        <div class="container">
-            <div class="hero-content fade-in">
-                <h1>Juntos Somos Mais Fortes</h1>
-                <p>Sua doação pode transformar vidas. Ajude-nos a custear os gastos médicos necessários com uma
+        </header>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1>Juntos Somos Mais Fortes</h1>
+                    <p>Sua doação pode transformar vidas. Ajude-nos a custear os gastos médicos necessários com uma
                     contribuição via PIX.</p>
-                <img src="assets/img/hero.jpg" alt="Imagem principal da campanha" class="hero-image">
-                <div class="pix-section" id="pix">
-                    <div>
-                        <h3 style="color: var(--cinza-escuro); margin-bottom: 15px;">Chave PIX</h3>
-                        <div class="pix-key" id="pixKey">978.631.653-34</div>
-                        <button class="btn btn-secondary" onclick="copiarPix()" aria-label="Copiar chave PIX">
-                            📋 Copiar Chave PIX
-                        </button>
-                    </div>
-                    <div class="qr-code">
-                        <p style="color: var(--cinza-escuro); margin-bottom: 15px;">Escaneie o QR Code</p>
-                        <img src="assets/img/qrcode.png" alt="QR Code para doação via PIX">
-                    </div>
-                </div> <a href="#como-doar" class="btn btn-primary" style="margin-top: 30px; font-size: 18px;">
-                    ❤️ Contribua com PIX
-                </a>
+                    <img src="assets/img/hero.jpg" alt="Imagem principal da campanha" class="hero-image">
+                    <div class="pix-section" id="pix">
+                        <div>
+                            <h3 style="color: var(--cinza-escuro); margin-bottom: 15px;">Chave PIX</h3>
+                            <div class="pix-key" id="pixKey">978.631.653-34</div>
+                            <button class="btn btn-secondary" onclick="copiarPix()" aria-label="Copiar chave PIX">
+                                📋 Copiar Chave PIX
+</button>
+                        </div>
+                        <div class="qr-code">
+                            <p style="color: var(--cinza-escuro); margin-bottom: 15px;">Escaneie o QR Code</p>
+                            <img src="assets/img/qrcode.png" alt="QR Code para doação via PIX">
+                        </div>
+                    </div>                     <a href="#como-doar" class="btn btn-primary" style="margin-top: 30px; font-size: 18px;">
+                    ❤️ Contribua com PIX </a>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Versículo -->
-    <section class="versiculo">
-        <div class="container">
-            <blockquote class="fade-in">
-                "Em tudo tenho mostrado a vocês que é trabalhando assim que podemos ajudar os necessitados. Lembrem das
-                palavras do Senhor Jesus: 'É mais feliz quem dá do que quem recebe.'"
-                <cite>— Atos 20:35</cite>
-            </blockquote>
-        </div>
-    </section>
-    <!-- Nossa Jornada
+        </section>
+        <!-- Versículo -->
+        <section class="versiculo">
+            <div class="container">
+                <blockquote class="fade-in">
+                    "Em tudo tenho mostrado a vocês que é trabalhando assim que podemos ajudar os necessitados. Lembrem das
+                    palavras do Senhor Jesus: 'É mais feliz quem dá do que quem recebe.'"<cite>— Atos 20:35</cite>
+                </blockquote>
+            </div>
+        </section>
+        <!-- Nossa Jornada
     <section class="galeria" id="jornada">
         <div class="container">
             <h2 class="section-title fade-in">Nossa Jornada</h2>
@@ -99,97 +92,88 @@
             </div>
         </div>
     </section> -->
-    <!-- Sobre a Campanha -->
-    <section class="sobre" id="sobre">
-        <div class="container">
-            <h2 class="section-title fade-in">Sobre a Campanha</h2>
-            <div class="sobre-content">
-                <div class="sobre-text fade-in">
-                    <h2>Ajude a Ana em sua luta pela saúde</h2>
-                    <p>A Ana está enfrentando um momento muito difícil. Gestante, ela descobriu nódulos no pescoço e
-                        precisou passar por uma cirurgia delicada. Infelizmente, os nódulos voltaram, exigindo novos
-                        exames e tratamentos.</p>
-                    <p>Os custos médicos são altos e estão além do que a família consegue assumir sozinha. Por isso,
+        <!-- Sobre a Campanha -->
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <h2 class="section-title fade-in">Sobre a Campanha</h2>
+                <div class="sobre-content">
+                    <div class="sobre-text fade-in">
+                        <h2 class="can">Ajude a Ana na luta contra o <span class="span">Câncer</span>.</h2>Ana, gestante de seis meses, enfrenta <span class="span">câncer</span> de linfoma.
+                        <p>Os custos médicos são altos e estão além do que a família consegue assumir sozinha. Por isso,
                         estamos organizando esta campanha para arrecadar recursos que ajudarão a custear exames,
                         consultas e demais despesas necessárias para que a Ana receba todo o cuidado que precisa neste
                         momento tão sensível.</p>
-                    <p>Qualquer contribuição faz diferença. Sua ajuda é fundamental para que a Ana possa continuar seu
+                        <p>Qualquer contribuição faz diferença. Sua ajuda é fundamental para que a Ana possa continuar seu
                         tratamento com segurança e tranquilidade.</p>
-                    <p>Obrigado por apoiar e compartilhar.</p>
-                </div>
-                <div class="fade-in">
-                    <img src="assets/img/extra.jpg" alt="Imagem complementar da campanha" class="sobre-image">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Como Doar -->
-    <section class="como-doar" id="como-doar">
-        <div class="container">
-            <h2 class="section-title fade-in">Como Doar</h2>
-            <div class="steps">
-                <div class="step fade-in">
-                    <div class="step-number">1</div>
-                    <h3>Abra seu App</h3>
-                    <p>Abra o aplicativo do seu banco ou carteira digital favorita</p>
-                </div>
-                <div class="step fade-in">
-                    <h3>Escolha PIX</h3>
-                    <p>Selecione a opção PIX e escolha "Chave PIX" ou "QR Code"</p>
-                </div>
-                <div class="step fade-in">
-                    <div class="step-number">3</div>
-                    <h3>Cole ou Escaneie</h3>
-                    <p>Cole nossa chave PIX ou escaneie o QR Code acima</p>
+                        <p>Obrigado por apoiar e compartilhar.</p>
+                    </div>
+                    <div class="fade-in">
+                        <img src="assets/img/extra.jpg" alt="Imagem complementar da campanha" class="sobre-image">
+                    </div>
                 </div>
             </div>
-            <div style="text-align: center; margin-top: 40px;">
-                <button class="btn btn-secondary" onclick="copiarPix()" aria-label="Copiar chave PIX novamente">
-                    📋 Copiar Chave PIX
-                </button>
+        </section>
+        <!-- Como Doar -->
+        <section class="como-doar" id="como-doar">
+            <div class="container">
+                <h2 class="section-title fade-in">Como Doar</h2>
+                <div class="steps">
+                    <div class="step fade-in">
+                        <div class="step-number">1</div>
+                        <h3>Abra seu App</h3>
+                        <p>Abra o aplicativo do seu banco ou carteira digital favorita</p>
+                    </div>
+                    <div class="step fade-in">
+                        <h3>Escolha PIX</h3>
+                        <p>Selecione a opção PIX e escolha "Chave PIX" ou "QR Code"</p>
+                    </div>
+                    <div class="step fade-in">
+                        <div class="step-number">3</div>
+                        <h3>Cole ou Escaneie</h3>
+                        <p>Cole nossa chave PIX ou escaneie o QR Code acima</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 40px;">
+                    <button class="btn btn-secondary" onclick="copiarPix()" aria-label="Copiar chave PIX novamente">
+                        📋 Copiar Chave PIX
+</button>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Contato -->
-    <section class="contato" id="contato">
-        <div class="container">
-            <h2 class="section-title fade-in">Entre em Contato</h2>
-            <div class="contato-info fade-in">
-                <p>Tem dúvidas ou quer saber mais sobre a campanha?</p>
-                <p>📞 <strong>(88) 99292-5483</strong></p>
-                <p>&nbsp;Entre em contato pelo WhatsApp usando o botão fixo</p>
+        </section>
+        <!-- Contato -->
+        <section class="contato" id="contato">
+            <div class="container">
+                <h2 class="section-title fade-in">Entre em Contato</h2>
+                <div class="contato-info fade-in">
+                    <p>Tem dúvidas ou quer saber mais sobre a campanha?</p>
+                    <p>📞 <strong>(88) 99292-5483</strong></p>
+                    <p>&nbsp;Entre em contato pelo WhatsApp usando o botão fixo</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Vaquinha Solidária. Feito com ❤️ para ajudar.</p>
-            <p>Transparência e responsabilidade em cada doação.</p>
-        </div>
-    </footer>
-    <!-- WhatsApp Float --> <a
-        href="https://wa.me/5588992925483?text=Olá! Gostaria de saber mais sobre a vaquinha solidária."
-        class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Entrar em contato via WhatsApp">
-        <svg viewBox="0 0 24 24">
-            <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
-        </svg> </a>
-    <!-- Mensagem de Sucesso -->
-    <div class="success-message" id="successMessage">
-        ✅ Chave PIX copiada com sucesso!
-    </div>
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
-    <link rel="stylesheet" href="assets/css/styles.css">
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Vaquinha Solidária. Feito com ❤️ para ajudar.</p>
+                <p>Transparência e responsabilidade em cada doação.</p>
+            </div>
+        </footer>
+        <!-- WhatsApp Float -->         <a href="https://wa.me/5588992925483?text=Olá! Gostaria de saber mais sobre a vaquinha solidária." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Entrar em contato via WhatsApp"> <svg viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+            </svg> </a>
+        <!-- Mensagem de Sucesso -->
+        <div class="success-message" id="successMessage">
+            ✅ Chave PIX copiada com sucesso!
+</div>
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+        <link rel="stylesheet" href="assets/css/styles.css">
     </head>
-
     <body>
         <!-- Mensagem de Sucesso -->
         <div class="success-message" id="successMessage">
             ✅ Chave PIX copiada com sucesso!
-        </div>
+</div>
         <script src="assets/js/main.js"></script>
     </body>
-
 </html>

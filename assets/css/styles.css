@@ -472,7 +472,12 @@ body {
 
 /* Focus styles */
 .btn:focus,
-button:focus {
+button:focus {
     outline: 3px solid var(--rosa-claro);
     outline-offset: 2px;
+}
+
+.span.span {
+    font-weight: bold;
+    color: #f2a3b4;
 }
