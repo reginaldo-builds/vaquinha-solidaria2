@@ -6,10 +6,10 @@
 }
 
 :root {
-    --laranja-pastel: #F6A76E;
-    --laranja-pastel-alt: #F7B267;
-    --verde-pastel: #A8D5BA;
-    --verde-pastel-alt: #8FD694;
+    --rosa-principal: rgb(241, 150, 169);
+    --rosa-claro: rgb(245, 180, 195);
+    --cor-secundaria: #FFFFFF;
+    --cor-secundaria-alt: #F8F8F8;
     --branco: #FFFFFF;
     --cinza-claro: #F4F4F4;
     --cinza-claro-alt: #EAEAEA;
@@ -47,13 +47,13 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--verde-pastel), var(--verde-pastel-alt));
+    background: linear-gradient(135deg, var(--rosa-principal), var(--rosa-claro));
     color: var(--branco);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(143, 214, 148, 0.4);
+    box-shadow: 0 6px 25px rgba(241, 150, 169, 0.4);
 }
 
 .btn-secondary {
@@ -104,7 +104,7 @@ body {
     gap: 10px;
     font-size: 20px;
     font-weight: 700;
-    color: var(--laranja-pastel);
+    color: var(--rosa-principal);
 }
 
 .logo svg {
@@ -114,7 +114,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--laranja-pastel), var(--laranja-pastel-alt));
+    background: linear-gradient(135deg, var(--rosa-principal), var(--rosa-claro));
     color: var(--branco);
     padding: 120px 0 80px;
     text-align: center;
@@ -134,8 +134,13 @@ body {
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    100% { transform: translateY(-100px); }
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
 }
 
 .hero-content {
@@ -176,7 +181,8 @@ body {
 }
 
 .pix-key {
-    background: var(--laranja-pastel);
+    background: var(--rosa-principal);
+    color: var(--branco);
     padding: 15px;
     border-radius: 10px;
     font-family: monospace;
@@ -218,7 +224,7 @@ body {
     display: block;
     margin-top: 20px;
     font-weight: 600;
-    color: var(--laranja-pastel);
+    color: var(--rosa-principal);
 }
 
 /* Galeria */
@@ -321,7 +327,7 @@ body {
 .step-number {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, var(--verde-pastel), var(--verde-pastel-alt));
+    background: linear-gradient(135deg, var(--rosa-principal), var(--rosa-claro));
     color: var(--branco);
     border-radius: 50%;
     display: flex;
@@ -359,7 +365,7 @@ body {
     right: 20px;
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, var(--verde-pastel), var(--verde-pastel-alt));
+    background: linear-gradient(135deg, var(--rosa-principal), var(--rosa-claro));
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -375,9 +381,17 @@ body {
 }
 
 @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(168, 213, 186, 0.7); }
-    70% { box-shadow: 0 0 0 10px rgba(168, 213, 186, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(168, 213, 186, 0); }
+    0% {
+        box-shadow: 0 0 0 0 rgba(241, 150, 169, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(241, 150, 169, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(241, 150, 169, 0);
+    }
 }
 
 .whatsapp-float svg {
@@ -388,7 +402,7 @@ body {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, var(--laranja-pastel), var(--laranja-pastel-alt));
+    background: linear-gradient(135deg, var(--rosa-principal), var(--rosa-claro));
     color: var(--branco);
     padding: 40px 0;
     text-align: center;
@@ -427,7 +441,7 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    background: var(--verde-pastel);
+    background: var(--rosa-principal);
     color: var(--branco);
     padding: 15px 20px;
     border-radius: 10px;
@@ -457,6 +471,6 @@ body {
 /* Focus styles */
 .btn:focus,
 button:focus {
-    outline: 3px solid var(--verde-pastel-alt);
+    outline: 3px solid var(--rosa-claro);
     outline-offset: 2px;
 }
