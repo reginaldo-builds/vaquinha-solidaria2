@@ -159,6 +159,7 @@ body {
     font-size: clamp(1.1rem, 3vw, 1.3rem);
     margin-bottom: 40px;
     opacity: 0.95;
+    font-weight: bolder;
 }
 
 .hero-image {
@@ -190,6 +191,7 @@ body {
     margin: 20px 0;
     word-break: break-all;
     position: relative;
+    font-weight: bolder;
 }
 
 .qr-code {
@@ -470,7 +472,7 @@ body {
 
 /* Focus styles */
 .btn:focus,
-button:focus {
+button:focus {
     outline: 3px solid var(--rosa-claro);
     outline-offset: 2px;
 }
